@@ -1,0 +1,44 @@
+---
+layout: page
+title: Contact
+permalink: /contact/
+---
+
+<h3>Have a question? Want to work on a project together?</h3>
+<p class="reqmark"><span class="reqstar">*</span> Required field</p>
+
+<form id="contact-form" accept-charset="UTF-8" action="#">
+  <div class="field">
+    <p>
+      <label for="name">Name: <span class='reqstar'>*</span></label>
+      <input id="name" name="name" type="text" placeholder="Your name" />
+    </p>
+  </div>
+  <div class="field">
+    <p>
+      <label for="email">Email: <span class='reqstar'>*</span></label>
+      <input id="email" name="email" type="text" placeholder="example@example.com" />
+    <p>
+  </div>
+  <div class="field">
+    <p>
+      <label for="subject">Subject:</label>
+      <input id="subject" name="subject" type="text" placeholder="Message subject" />
+    <p>
+  </div>
+  <div class="field">
+    <p>
+      <label for="message">Message: <span class='reqstar'>*</span></label>
+      <textarea id="message" name="message" rows="10" placeholder="Type your message here"></textarea>
+    <p>
+  </div>
+  <div class="actions">
+    <p>
+      <button class="form-button" type="submit">Send</button>
+      <button class="form-button" type="reset">Reset</button>
+    </p>
+  </div>
+</form>
+<div id="status">
+  <div class="status-box"></div>
+</div>

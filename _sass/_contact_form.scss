@@ -1,0 +1,111 @@
+input[type='text'], textarea {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+textarea {
+  height: 100%;
+  width: 100%;
+  resize: none;
+}
+
+.reqmark {
+  font-weight: normal;
+}
+
+.reqstar {
+  color: #f00;
+}
+
+.invalid-input {
+  border: 1px solid #f47471;
+}
+
+form {
+  display: table;
+  margin: 0 auto;
+  width: 100%;
+  p {
+    label {
+      font-size: 1.25em;
+    }
+    label, input, textarea {
+      display: table-cell;
+    }
+    input[type="text"], textarea {
+      width: 100%;
+    }
+  }
+}
+
+.actions p {
+  text-align: right;
+}
+
+.form-button {
+  background-color: #cccddd;
+  cursor: pointer;
+  overflow: visible; /* removes extra side spacing in IE */
+  padding: 0.5em 1.5em;
+  font: 1em Arial, Helvetica, sans-serif;
+  border-radius: 0.2em;
+  color: #000;
+  &:hover {
+    background-color: #aaabbb;
+    color: #eff;
+  }
+  &:active {
+    box-shadow: none;
+  }
+}
+
+button::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+#status {
+  color: #555;
+  font-family: Tahoma, Geneva, sans-serif;
+  width: 100%;
+  margin: 0 auto;
+  span {
+    border-radius: 0.5em;
+    padding: 0.5em;
+    margin: 0 auto;
+  }
+  .status-box {
+    position: relative;
+    color: #555;
+    border-radius: 10px;
+    font-family: Tahoma, Geneva, sans-serif;
+    padding: 0.5em;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background-repeat: no-repeat;
+    .close{
+      border: none;
+      position: absolute;
+      top: 0;
+      right: 0;
+      color: #454545;
+      cursor: pointer;
+      font-size: 1.5rem;
+      background: 0 0;
+
+      &:hover {
+        color: #000;
+      }
+    }
+  }
+  .error {
+    color: #e10702;
+    background-color: #f99b98;
+    border: 1px solid #cc0500;
+  }
+  .success {
+    color: #004501;
+    background-color: #77db79;
+    border: 1px solid #007203;
+  }
+}
