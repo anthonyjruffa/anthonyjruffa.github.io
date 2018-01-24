@@ -4,6 +4,8 @@ title: Resume
 permalink: /resume/
 ---
 
+#### Download as: [PDF][pdf] | [MS Word][doc]
+
 # Summary
 
 Software engineer with experience building distributed storage and file system management software, as well as web and mobile applications.
@@ -49,9 +51,8 @@ Developed a calendar module in a team of 13 people for the WPI Suite application
 Previous experience in: PHP, VB, Racket, C, C++, Python, Go  
 **Tools:** Ruby on Rails, Git, Eclipse, Jenkins, Maven, TestNG, JUnit, Backbone.js, jQuery, Sinatra, MATLAB, GCC, Weka, ANTLR  
 
-[pdf]: .
-[doc]: .
-[html]: .
+[pdf]: {{ site.url }}/assets/anthonyjruffa_resume_site.pdf
+[doc]: {{ site.url }}/assets/anthonyjruffa_resume_site.docx
 
 [hpe]: https://www.hpe.com
 [mojotech]: https://www.mojotech.com
