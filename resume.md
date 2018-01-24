@@ -8,28 +8,31 @@ permalink: /resume/
 
 Software engineer with experience building distributed storage and file system management software, as well as web and mobile applications.
 
+# Education
+
+**Bachelor of Science in Computer Science**  
+Worcester Polytechnic Institute (WPI) - 2016 with Distinction
+
+#### Coursework
+
+Software Engineering, Operating Systems, Webware, Foundations of Computer Science, Algorithms, Object-Oriented Analysis and Design, Database Systems, Data Mining, Programming Language Design, Compilers, Artificial Intelligence, Mobile and Ubiquitous Computing
+
 # Experience
 
 **Software Engineer, [Hewlett Packard Enterprise][hpe], June 2016-present, Andover, MA**  
-\- Programmed and currently manage a software plugin for NFS storage for HPE 3PAR FilePersona.  
-\- Programmed, configured, and currently manage my team's project build system and process.
+Developed and managed data storage management software projects, including plugins for managing NFS shares for different kinds of data storage systems and Java REST APIs for different storage protocols. Programmed a continuous integration build system for the team’s software projects.
+
+**Volunteer Software Engineer, [Life.Church][lifechurch], January 2016-present, North Andover, MA**
+Programming new features and enhancements for the Church Online Platform, Church Metrics, Open.church, and Develop.me applications as part of the Open Network Team. Working on a team of engineers and designers to help plan ideas and priorities for the tools.
 
 **Software Engineering Intern, [MojoTech][mojotech], May-August 2015, Providence, RI**  
-\- Built a front end for a website status checking application and made enhancements to its back end.  
-\- Worked on development of the main mojotech.com website.  
-\- Wrote integration tests for the website.
+Worked on development of the main mojotech.com website.  Wrote integration tests for the website.  Built a front end for a website status checking application and made enhancements to the back end of that application.
 
 **Software Engineering Intern, [Veritude at Fidelity Investments][fidelity], May-August 2014, Smithfield, RI**  
-\- Wrote automation software in Java for the advisor.fidelity.com website.  
-\- Wrote TestNG tests on that software to evaluate the application’s performance and handling of data.
-
-**Technical Intern, [Veritude at Fidelity Investments][fidelity], May-August 2013, Merrimack, NH**  
-\- Performed version management and end of life and end of support research for FPCMS IT tools.  
-\- Developed training material for the tools, wrote VB macros and SQL queries to manage IT tools data, help convert the data from MS Excel to MS Access, and autonomously compare and reconcile the data.
+Wrote automation software in Java for the advisor.fidelity.com website. Used that software to write TestNG tests to evaluate the application’s performance and handling of data.
 
 **Intern, [Naval Undersea Warfare Center Division Newport][nuwc], June-August 2012, Newport, RI**  
-\- Wrote MATLAB simulations to investigate the features of the different types of active sonar.  
-\- Presented findings to the Chief Engineer, who presented the results to the DoD.
+Wrote MATLAB simulations to investigate the features of the different types of active sonar. Presented findings to the Chief Engineer, who presented the results to the DoD.
 
 # Projects
 
@@ -41,23 +44,10 @@ Developed a calendar module in a team of 13 people for the WPI Suite application
 
 # Skills
 
-**Platforms:** Microsoft Windows, Ubuntu Linux, CentOS Linux, Android  
+**Platforms:** Microsoft Windows, Debian/Ubuntu Linux, CentOS Linux, Android  
 **Languages:** Java, Ruby, HTML, CSS, JavaScript, Bash  
 Previous experience in: PHP, VB, Racket, C, C++, Python, Go  
-**Tools:** Ruby on Rails, Git, Eclipse, Jenkins, TestNG, JUnit, Backbone.js, jQuery, Sinatra, MATLAB, GCC, Weka, ANTLR  
-
-# Education
-
-**Bachelor of Science in Computer Science**  
-Worcester Polytechnic Institute (WPI) - 2016 with Distinction
-
-#### Coursework
-
-Software Engineering, Operating Systems, Webware, Foundations of Computer Science, Algorithms, Object-Oriented Analysis and Design, Database Systems, Data Mining, Programming Language Design, Compilers, Artificial Intelligence, Mobile and Ubiquitous Computing
-
-# Awards
-
-WPI Dean's List, 2 semesters
+**Tools:** Ruby on Rails, Git, Eclipse, Jenkins, Maven, TestNG, JUnit, Backbone.js, jQuery, Sinatra, MATLAB, GCC, Weka, ANTLR  
 
 [pdf]: .
 [doc]: .
